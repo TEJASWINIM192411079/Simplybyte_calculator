@@ -1,0 +1,6 @@
+services:
+  calculator:
+    build: .
+    container_name: simplybyte_calculator
+    ports:
+      - "8085:5000"
